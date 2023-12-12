@@ -1,0 +1,140 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Baloo Chettan 2";
+    transition: all 0.3 ease-in-out; 
+}
+
+
+
+
+
+body {
+    /* font-familya: "Open Sasn", sans-serif; */
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background:fixed rgba(0, 0, 0, 0) linear-gradient(to right)  rgb(0, 15, 255), rgb(255, 0, 0) repeat scroll 0% 0%;
+    text-align: left;
+    background-color: #000000;
+    overflow-x: hidden;
+    /* font-familya: "Baloo oaaji", cursive; */
+}
+
+
+/* ======= Start Screen Responsive ======== */
+    .container {
+        margin: 0 auto;
+        padding: 0 40px;
+    }
+
+    /* Big */
+    @media (min-width:1200px){
+        .container{
+            width: 970;
+        }
+    }
+
+    /* Medium */
+
+    @media (min-width:992px) {
+        .container{
+            width: 992px;
+        }
+    }
+
+    /* Small */
+
+     @media (min-width: 768) {
+        .container{
+            width: 750px;
+        }
+     }
+
+
+
+
+/* ========= End Screen Responsive ======== */
+
+
+
+/* ========= Start forHeader ======== */
+.forHeader .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 8rem;
+    width: 70%;
+    margin-top: 3rem;
+    background-color:rgba(255, 255, 255, 0.35);
+    text-align: center;
+}
+
+
+
+
+
+/* Big */
+@media (max-width:1200px){
+   
+}
+
+/* Medium */
+
+@media (max-width:992px) {
+    
+}
+
+/* Small */
+
+ @media (maxmax-width: 768) {
+    .forHeader .container .content h1{
+        font-size: 2re;
+       }
+ }
+
+.forHeader .container h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.forHeader .container h2{
+    font-size: 3rem;
+}
+
+.forHeader .container p{
+    padding-top: 5rem;
+}
+
+
+    
+
+/* ========= End forHeader ========== */
+
+
+
+/* ========= Start forButton ========== */
+
+.forButton .container{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 45wh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color:rgba(255, 255, 255, 0.35);
+    padding-top: 2rem;
+    margin: 3rem 0%;
+    padding-bottom: 2rem;
+}
+
+/* ========= End forButton ============ */
